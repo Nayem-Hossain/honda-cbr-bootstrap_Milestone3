@@ -28,10 +28,10 @@
         <nav class="container navbar navbar-expand-lg navbar-light">
             <div class="container-fluid ps-0">
                 <a class="navbar-brand text-white" href="#">HONDA CBR</a>
-                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-white"></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -56,45 +56,67 @@
         </nav>
 
         <!-- banner section -->
-        <section class="container d-flex justify-content-between align-items-center">
-            <div class="">
-                <p class="banner-paragraph mb-0">Computer-controlled digital transistorized with electronic advance</p>
-                <h2 class="banner-heading mb-3">Honda CBR 300R</h2>
-                <p class="banner-paragraph mb-3 w-75">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                    amet sint. Velit officia consequat
-                    duis
-                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn bg-warning banner-paragraph text-white" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Purchase
-                </button>
+        <section class="container my-5 d-flex justify-content-center">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="banner-paragraph mb-0">Computer-controlled digital transistorized with electronic advance
+                    </p>
+                    <h2 class="banner-heading mb-3">Honda CBR 300R</h2>
+                    <p class="banner-paragraph mb-3 ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia consequat
+                        duis
+                        enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-primary fw-bold" id="exampleModalLabel">Terms & Conditions
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body text-danger">
-                                Once You Purchased This Bike Then Never get Returned the Cash.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary"
-                                    data-bs-dismiss="modal">Understood</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-warning banner-paragraph text-white mb-5" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-primary fw-bold" id="exampleModalLabel">Terms &
+                                        Conditions
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-secondary">
+
+
+                                    <strong>Disclaimer:</strong> *Interest rate/ Finance disbursal will depend on
+                                    financial
+                                    institution /
+                                    banks discretion. The calculation performed by EMI Calculator is based on the
+                                    information you entered on reducing rate of interest and is for illustrative
+                                    purposes
+                                    only. This calculation reflects amounts in Indian Rupee rounded to the nearest whole
+                                    figure. Estimated monthly payments DO NOT include any processing or other possible
+                                    fees
+                                    which may depend on the financial institution / banks.
+                                    <br>
+
+                                    <span class="text-danger"><strong>Note:</strong> Once You Purchased This Bike Then
+                                        Never
+                                        get Returned the paid Cash.</span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary"
+                                        data-bs-dismiss="modal">Understood</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img src="images/header-bike.png" alt="">
+                <div class="col-lg-6 d-lg-flex justify-content-center">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
             </div>
         </section>
     </header>
@@ -106,10 +128,14 @@
                 <h1 class="featured-bike-title">Fetured Bikes 2021</h1>
                 <p class="text-danger">Best bike collection</p>
             </div>
-            <div class="d-flex justify-content-between mt-5">
-                <img class="w-25 img-filter-grayscale" src="images/feature-bike.jpg" alt="">
-                <img class="w-25" src="images/feature-bike.jpg" alt="">
-                <img class="w-25 img-filter-grayscale" src="images/feature-bike.jpg" alt="">
+            <div class="row row-cols-1 gutter-gap justify-content-between mt-5">
+                <div class="col-lg-4 d-flex justify-content-center"><img class="img-size img-filter-grayscale"
+                        src="images/feature-bike.jpg" alt=""></div>
+                <div class="col-lg-4 d-flex justify-content-center"><img class="img-size" src="images/feature-bike.jpg"
+                        alt=""></div>
+                <div class="col-lg-4 d-flex justify-content-center"><img class="img-size img-filter-grayscale"
+                        src="images/feature-bike.jpg" alt=""></div>
+
             </div>
         </section>
 
@@ -121,7 +147,7 @@
             <div class="row row-cols-1 g-5 justify-content-between">
                 <div class="col-lg-4">
                     <div class="card h-100 justify-content-center align-items-center">
-                        <img src="images/user-1.png" class="card-img-top w-75" alt="...">
+                        <img src="images/user-1.png" class="card-img-top w-75 mt-4" alt="...">
                         <div class="card-body text-center">
                             <p class="card-text">Slate helps you see how
                                 many more days you need
@@ -141,7 +167,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card h-100 justify-content-center align-items-center">
-                        <img src="images/user-2.png" class="card-img-top w-75 " alt="...">
+                        <img src="images/user-2.png" class="card-img-top w-75 mt-4" alt="...">
                         <div class="card-body text-center">
                             <p class="card-text">Slate helps you see how
                                 many more days you need
@@ -161,18 +187,18 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card h-100 justify-content-center align-items-center">
-                        <img src="images/user-3.png" class="card-img-top w-100" alt="...">
+                        <img src="images/user-3.png" class="card-img-top w-100 mt-4" alt="...">
                         <div class="card-body text-center">
                             <p class="card-text">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
                             <div>
-                                <i class="fas fa-star color-star"></i>
-                                <i class="fas fa-star color-star"></i>
-                                <i class="fas fa-star color-star"></i>
-                                <i class="fas fa-star color-star"></i>
-                                <i class="far fa-star color-star"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="far fa-star star-color"></i>
                             </div>
                             <h6 class="card-title my-4 client-name">Regina Miles</h6>
                             <h6 class="client-profession">Banker</h6>
@@ -181,18 +207,19 @@
                 </div>
             </div>
         </section>
+
         <!-- Frequently Asked Questions Section -->
         <section class="container">
             <h1 class="text-center text-burnt-sienna section-title">
                 <span class="text-dark-blue">Frequently Asked</span> Questions
             </h1>
-            <div class="row">
-                <div class="col-6">
+            <div class="row g-5">
+                <div class="col-lg-6 d-flex justify-content-center">
                     <img class="w-75" src="images/faq.png" alt="">
                 </div>
-                <!-- <div> -->
-                <div class="accordion col-6" id="accordionExample">
-                    <div class="accordion-item my-3">
+
+                <div class="accordion col-lg-6 " id="accordionExample">
+                    <div class="accordion-item my-3 rounded-1">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -202,17 +229,14 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and
-                                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                our default variables. It's also worth noting that just about any HTML can go within
-                                the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div class="accordion-body accordian-text">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help you be a more focused and legally compliant bike rider.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item my-3">
+                    <div class="accordion-item my-3 border-top rounded-1">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -222,7 +246,7 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body accordian-text">
                                 <strong>This is the second item's accordion body.</strong> It is hidden by default,
                                 until the collapse plugin adds the appropriate classes that we use to style each
                                 element. These classes control the overall appearance, as well as the showing and
@@ -232,7 +256,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item my-3">
+                    <div class="accordion-item my-3 border-top rounded-1">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -241,7 +265,7 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body accordian-text">
                                 <strong>This is the third item's accordion body.</strong> It is hidden by default,
                                 until the collapse plugin adds the appropriate classes that we use to style each
                                 element. These classes control the overall appearance, as well as the showing and
@@ -251,17 +275,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item my-3">
+                    <div class="accordion-item my-3 border-top rounded-1">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 What rules should I follow when riding my bike?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                            <div class="accordion-body accordian-text">
+                                <strong>This is the forth item's accordion body.</strong> It is hidden by default,
                                 until the collapse plugin adds the appropriate classes that we use to style each
                                 element. These classes control the overall appearance, as well as the showing and
                                 hiding via CSS transitions. You can modify any of this with custom CSS or overriding
@@ -271,12 +295,560 @@
                         </div>
                     </div>
                 </div>
-                <!-- </div> -->
+            </div>
+        </section>
+
+        <!-- all upcomming honda bike section -->
+        <section class="container">
+            <h1 class="extra-section-title text-dark-blue">All <span class="text-burnt-sienna">Upcoming</span> Bikes
+            </h1>
+
+            <!-- bike portion -->
+            <div class="row row-cols-1 row-cols-lg-5 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Honda-CBR1000RR-Fireblade-black.png" class="card-img-top img-fluid"
+                            alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda CBR-1000RR</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Honda_CBR_250R.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda CBR-250R</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Honda_CB_Unicorn_150.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda CB Unicorn-150</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/honda-rebel-300.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda Rebel-300</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Honda CBR 1000RR Fireblade.png" class="card-img-top img-fluid"
+                            alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda CBR Fireblade</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scooter-bike Portion -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Hero Maestro Edge.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Hero Maestro Edge</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Honda Activa 5G.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda Activa 5G</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming//Honda Grazia.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda Grazia</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/Honda-Deluxe.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda Deluxe</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/upcomming/honda PCX.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-center">Honda PCX</h5>
+                            <table class="table m-0">
+                                <tr class="table-primary">
+                                    <td>Engine</td>
+                                    <td>: 125 cc(air)</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Top Speed</td>
+                                    <td>: 100 Kmph</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>Weight</td>
+                                    <td>: 195 kg</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Price in BDT</td>
+                                    <td>: 17.87 Lakhs</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-warning text-dark-blue fw-bold" href="#">See Full Specification</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All honda latest price Section -->
+        <section class="container">
+            <h1 class="extra-section-title text-dark-blue "> All Latest <span class="text-burnt-sienna">
+                    Honda Bikes</span> Price List in 2021</h1>
+            <hr>
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Serial No</th>
+                        <th scope="col">Bike Name</th>
+                        <th scope="col">Engine (cc)</th>
+                        <th scope="col">Price in Bangladesh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <th scope="row">1</th>
+                        <td>New Honda CBR 150R 2021</td>
+                        <td>149.16</td>
+                        <td>BDT 538,000</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <th scope="row">2</th>
+                        <td>Honda Dream 110</td>
+                        <td>110</td>
+                        <td>BDT 89,900</td>
+                    </tr>
+                    <tr class="table-success">
+                        <th scope="row">3</th>
+                        <td>Honda CB Hornet 160R Deluxe ABS</td>
+                        <td>162.71</td>
+                        <td>BDT 255,500</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row">4</th>
+                        <td>Honda SP 125</td>
+                        <td>124</td>
+                        <td>Upcoming</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <th scope="row">5</th>
+                        <td>Honda CB Hornet 160R ABS</td>
+                        <td>162.7</td>
+                        <td>BDT 255,000</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th scope="row">6</th>
+                        <td>Honda CBR 150R Matte Black</td>
+                        <td>149.16</td>
+                        <td>BDT 450,000</td>
+                    </tr>
+                    <tr class="table-light">
+                        <th scope="row">7</th>
+                        <td>Honda CBR150R Repsol</td>
+                        <td>149.16</td>
+                        <td>BDT 452,000</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <th scope="row">8</th>
+                        <td>Honda CB Hornet 160R CBS</td>
+                        <td>162.71</td>
+                        <td>BDT 186,800</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <th scope="row">9</th>
+                        <td>Honda CB Hornet 160R Deluxe CBS</td>
+                        <td>162.71</td>
+                        <td>BDT 189,900</td>
+                    </tr>
+                    <tr class="table-success">
+                        <th scope="row">10</th>
+                        <td>Honda X Blade 160</td>
+                        <td>162.71</td>
+                        <td>BDT 172,900</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row">11</th>
+                        <td>Honda Livo Drum</td>
+                        <td>109.19</td>
+                        <td>BDT 103,900</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <th scope="row">12</th>
+                        <td>Honda Wave Alpha</td>
+                        <td>109.16 cc</td>
+                        <td>BDT 135,000</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th scope="row">13</th>
+                        <td>Honda CB Shine SP</td>
+                        <td>124.73</td>
+                        <td>BDT 125,000</td>
+                    </tr>
+                    <tr class="table-light">
+                        <th scope="row">14</th>
+                        <td>Honda Dream Neo</td>
+                        <td>124.71</td>
+                        <td>BDT 126,900</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <th scope="row">15</th>
+                        <td>Honda Livo Disc</td>
+                        <td>162.71</td>
+                        <td>BDT 114,500</td>
+                    </tr>
+                    <tr class=" table-secondary">
+                        <th scope="row">16</th>
+                        <td>Honda Dream Neo</td>
+                        <td>109.19</td>
+                        <td>BDT 108,900</td>
+                    </tr>
+                    <tr class="table-success">
+                        <th scope="row">17</th>
+                        <td>Honda CB Hornet 160R SD</td>
+                        <td>162.71</td>
+                        <td>BDT 169,800</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row">18</th>
+                        <td>Honda CB Shine</td>
+                        <td>124.7 cc</td>
+                        <td>BDT 136,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Rating Section -->
+        <section class="container my-5">
+            <h2 class="extra-section-title ">Reviews of <span class="text-burnt-sienna ">Honda CBR</span></h2>
+            <div class="row row-cols-sm-1 border shadow d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 p-5 ">
+                    <p class="fw-bold ">Overall rating:</p>
+                    <h2 class="text-primary"><i class="fas fa-star text-primary"></i> 4.4</h2>
+                    <hr>
+                    <p>2400 ratings | 798 reviews</p>
+                </div>
+                <div class="col-lg-6 p-5">
+                    <div class="d-flex align-items-center py-2">
+
+                        <p class="mb-0 me-3 d-flex">
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                        </p>
+
+                        <div class="progress w-100">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"> 1505
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+
+                        <p class="mb-0 me-3 d-flex">
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </p>
+
+                        <div class="progress w-100">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 638
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+
+                        <p class="mb-0 me-3 d-flex">
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </p>
+
+                        <div class="progress w-100">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 23%"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> 136
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+
+                        <p class="mb-0 me-3 d-flex">
+                            <i class="fas fa-star star-color"></i>
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </p>
+
+                        <div class="progress w-100">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 3%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"> 38
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+
+                        <p class="mb-0 me-3 d-flex">
+                            <i class="fas fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                            <i class="far fa-star star-color"></i>
+                        </p>
+
+                        <div class="progress w-100">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 10%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"> 136
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <p class="text-center mt-5">copyright&copy;nayem 2021</p>
+
+    <!-- footer section -->
+    <footer class="bg-dark">
+        <div class="container text-white text-center margin-top">
+            <h3 class="py-5">Contact Us !</h3>
+            <div class="d-lg-flex justify-content-center g-5">
+                <div>
+                    <i class="fab fa-facebook-square banner-heading px-lg-5 px-sm-2"></i>
+                    <p>facebook</p>
+                </div>
+                <div>
+                    <i class="fab fa-instagram-square banner-heading px-lg-5 px-sm-2"></i>
+                    <p>instagram</p>
+                </div>
+                <div>
+                    <i class="fab fa-youtube-square banner-heading px-lg-5 px-sm-2"></i>
+                    <p>youtube</p>
+                </div>
+                <div>
+                    <i class="fab fa-twitter-square banner-heading px-lg-5 px-sm-2"></i>
+                    <p>twitter</p>
+                </div>
+            </div>
+            <p class="pt-5 pb-2 mb-0">Copyright &copy; 2021 Nayem Hossain</p>
+        </div>
     </footer>
 
 

@@ -34,7 +34,13 @@
   font-size: 16px;
   color: #e0e0e0;
 }
-.color-star {
+.gutter-gap {
+  gap: 8rem 0rem;
+}
+.img-size {
+  width: 18rem;
+}
+.star-color {
   color: #e77c40;
 }
 .text-dark-blue {
@@ -49,6 +55,9 @@
 .img-filter-grayscale {
   filter: grayscale(100%);
 }
+.border {
+  border: 1px solid #d5e5fb;
+}
 .client-name {
   font-family: Poppins;
   font-style: normal;
@@ -61,6 +70,24 @@
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  color: #252B42;
+  color: #252b42;
   letter-spacing: 0.2px;
+}
+.accordian-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7e848c;
+}
+.extra-section-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+.margin-top {
+  margin-top: 10rem;
 }
